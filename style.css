@@ -1,0 +1,195 @@
+/* Write some CSS below */
+
+h1{color: white;
+font-family: bodoni;
+font-weight: bold; 
+font-size: 60px;
+text-align: center;}
+
+p{color: white;
+text-align: center;
+font-size: 25px;
+font-weight: bold;}
+
+
+h2 {
+	font-family: bodoni ; 
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+ }
+
+h3 {
+	font-family: bodoni ; 
+	font-size: 20px ; 
+	text-align: center;
+	margin-top: -5px;
+    } 
+
+body{font-family: bodoni;
+font-weight: lighter;
+    } 
+
+h4{
+	font-family: bodoni ; 
+	font-size: 20px ; 
+	text-align: center;
+	margin-top: -5px;
+    } 
+h5{font-family: bodoni ;
+	color: white;
+	font-weight: bold;
+	font-size: 17px;
+	background-color: #74695C; 
+padding: 10px}
+
+h6{ font-family:bodoni ; 
+font-size:15px; 
+text-align: center;}
+
+.banner{
+	background-image: url(https://www.kawar.com/sites/default/files/styles/de2e_4_1_sm/public/images/2019-06/architecture-bay-boats-7990913x_0.png?h=b77e1efb&itok=lAvx_p9q); height: 30vh; margin-top: -40px; 
+}
+
+.aboutus{
+text-align: center;
+margin-top: 60px;
+background: white; 
+			box-shadow: 0 0 25px rgba(0, 0, 0, 0.4); 
+			box-align: center;
+			border-radius: 5% ; 
+			width: 100% ; 
+			height: 100px ; 
+}
+
+.cards{
+	display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; grid-gap: 0px;	
+    margin-left: 10px;
+    margin-bottom:40px }
+	
+			
+.cards img { 
+	width:250px ; 
+	height:150px ; 
+	object-fit: cover;
+	border-radius: 3px}
+
+
+.card{ background: white; 
+			box-shadow: 0 0 25px rgba(0, 0, 0, 0.4); 
+			border-radius: 10% ;  
+			height: 350px ;
+			width: 250px;
+			padding: 20px ; 
+			margin: 10px; 
+}
+
+.footer{
+	background-image:url(https://www.kawar.com/sites/default/files/styles/de2e_4_1_sm/public/images/2019-06/architecture-bay-boats-7990913x_0.png?h=b77e1efb&itok=lAvx_p9q);
+	height: 25vh;
+	margin-top: 20px;
+
+}
+
+.link{ 
+	background-color:#74695C ;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	color: white;
+}
+
+a:hover{
+	color: skyblue;
+}
+
+nav {
+	margin-top: 50px;
+background: #74695C; 
+  text-align: center;
+}
+
+ul {
+  list-style-type: none; 
+}
+
+li {
+  display: inline-grid; 
+  margin: 0 10px;
+}
+li a {
+  display: block;
+  color: white; 
+  text-align: center;
+  padding: 14px 16px; 
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: black;
+}
+
+.countries {
+	display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; grid-gap: 0px;	
+    margin-left: 10px;
+    margin-bottom:40px; 
+}
+	
+			
+.countries img { 
+	width:150px ; 
+	height:100px ; 
+	object-fit: cover;
+	border-radius: 3px
+}
+
+.country { 
+	background: white; 
+	box-shadow: 0 0 25px rgba(0, 0, 0, 0.4); 
+	border-radius: 5% ; 
+	width: 150px; 
+	height: 400px ;
+	padding: 15px ; 
+	padding-top: 1px;
+	margin: 10px; 
+}
+
+/*Cards media queries */
+
+@media (max-width 1000px){ 
+.cards {grid-template-columns: 1fr 1fr 1fr;
+ }
+}
+
+@media (max-width: 900px) {
+	.cards {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media (max-width:600px){
+
+	.cards { grid-template-columns:1fr }
+	}
+
+@media (max-width: 900px){
+	.aboutus{  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
